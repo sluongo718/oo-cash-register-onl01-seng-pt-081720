@@ -16,6 +16,8 @@ class CashRegister
       while i < quantity
         @items << item
          i += 1
+       else 
+         @items
       end
      
     end
