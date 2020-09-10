@@ -12,7 +12,8 @@ class CashRegister
   
   def add_item(item, price, quantity = 1)
     if quantity > 1
-      while 
+      i = 0 
+      while i < 
     @items << item
      binding.pry
   end
