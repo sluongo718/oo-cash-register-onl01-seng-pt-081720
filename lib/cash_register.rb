@@ -15,6 +15,7 @@ class CashRegister
     @items << item
      
   end
+  @items
     self.total += price * quantity
   
   end
