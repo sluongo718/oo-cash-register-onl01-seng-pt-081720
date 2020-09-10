@@ -19,7 +19,7 @@ class CashRegister
       end
       
       else
-        @items
+        @items << item
      
     end
     self.total += price * quantity
