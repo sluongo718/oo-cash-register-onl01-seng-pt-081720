@@ -16,6 +16,7 @@ class CashRegister
       while i < quantity
     @items << item
      i += 1
+   end
      binding.pry
   end
   
